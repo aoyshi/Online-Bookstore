@@ -1,0 +1,39 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+#mynav {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.myMain {
+    padding-left: 25%;
+	width: 80%;
+}
+
+#home {
+	font-size: 20px;
+    padding-left: 25px;
+	color: white;
+}
+
+table,td{
+   border: 1px solid black;
+}
+
+.error {
+	color: red;
+}
+
+@media screen and (max-height: 450px) {
+  #mynav {padding-top: 15px;}
+  #mynav a {font-size: 18px;}
+}
